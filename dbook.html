@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Recipe Book</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Digital Recipe Book</h1>
+  </header>
+  
+  <section id="recipes">
+    <h2>Recipes</h2>
+    <div class="recipe">
+      <h3>Spaghetti Carbonara</h3>
+      <button onclick="toggleIngredients('spaghetti')">Show Ingredients</button>
+      <ul id="spaghetti-ingredients" style="display: none;">
+        <li>Spaghetti</li>
+        <li>Eggs</li>
+        <li>Pancetta or bacon</li>
+        <li>Parmesan cheese</li>
+        <li>Black pepper</li>
+      </ul>
+    </div>
+    <div class="recipe">
+      <h3>Chocolate Chip Cookies</h3>
+      <button onclick="toggleIngredients('cookies')">Show Ingredients</button>
+      <ul id="cookies-ingredients" style="display: none;">
+        <li>All-purpose flour</li>
+        <li>Butter</li>
+        <li>Sugar</li>
+        <li>Eggs</li>
+        <li>Vanilla extract</li>
+        <li>Chocolate chips</li>
+      </ul>
+    </div>
+  </section>
+  
+  <footer>
+    <p>© 2024 Digital Recipe Book</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
